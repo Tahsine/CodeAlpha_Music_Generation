@@ -13,7 +13,6 @@ artifacts/skipped_files.json
 artifacts/training_history.json
 
 # ── Generated audio — keep only committed examples ───────────────────────────
-artifacts/*.wav
 artifacts/generated_temp07.mid
 artifacts/generated_temp11.mid
 

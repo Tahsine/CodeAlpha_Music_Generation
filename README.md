@@ -12,7 +12,7 @@
 
 ## Demo
 
-> 🎧 **Sample output:** [`artifacts/generated_temp09.mid`](artifacts/generated_temp09.mid)  
+> 🎧 **Sample output:** [`artifacts/generated.wav`](artifacts/generated.wav)
 > 🤗 **Model weights:** [KalineZephyr/music-lstm-midi-codealpha](https://huggingface.co/KalineZephyr/music-lstm-midi-codealpha)
 
 ---
