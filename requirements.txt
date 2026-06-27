@@ -1,0 +1,21 @@
+# ── Core ML ───────────────────────────────────────────────────────────────────
+torch>=2.0.0
+numpy>=1.24.0
+
+# ── MIDI parsing (preprocessing only) ────────────────────────────────────────
+symusic>=0.4.0
+
+# ── MIDI generation (inference) ───────────────────────────────────────────────
+music21>=9.0.0
+
+# ── Audio conversion (optional — requires FluidSynth installed on system) ─────
+# Linux : sudo apt-get install fluidsynth
+# Mac   : brew install fluidsynth
+# Then  : pip install midi2audio
+midi2audio>=0.1.1
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm>=4.65.0
+
+# ── HuggingFace (model upload/download) ───────────────────────────────────────
+huggingface_hub>=0.20.0

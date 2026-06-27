@@ -1,0 +1,47 @@
+# ── Model weights — stored on HuggingFace ────────────────────────────────────
+artifacts/best_model.pt
+
+# ── Soundfont — downloaded automatically by generate.py ──────────────────────
+artifacts/soundfont.sf2
+
+# ── Preprocessed data — too large for GitHub ─────────────────────────────────
+artifacts/X.npy
+artifacts/y.npy
+artifacts/events_stream.pkl
+artifacts/checkpoint.json
+artifacts/skipped_files.json
+artifacts/training_history.json
+
+# ── Generated audio — keep only committed examples ───────────────────────────
+artifacts/*.wav
+artifacts/generated_temp07.mid
+artifacts/generated_temp11.mid
+
+# ── Personal scripts ──────────────────────────────────────────────────────────
+upload_model.py
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# ── Virtual environment ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
