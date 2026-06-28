@@ -1,30 +1,3 @@
-"""
-generate.py — Inference script for MIDI Music Generation
-CodeAlpha Task 3 — Music Generation with LSTM
-
-Usage:
-    # Minimal — uses defaults
-    python generate.py
-
-    # Full control
-    python generate.py \\
-        --model    artifacts/best_model.pt \\
-        --vocab    artifacts/vocab.json \\
-        --output   artifacts/my_music.mid \\
-        --n_tokens 512 \\
-        --temperature 0.9 \\
-        --bpm      120 \\
-        --audio         # also convert to .wav
-
-How it works:
-    1. Load vocab.json  → token ↔ (pitch, duration, velocity) mappings
-    2. Load best_model.pt → trained MusicLSTM weights
-    3. Pick a random seed sequence (or use --seed_tokens)
-    4. Generate N tokens autoregressively with temperature sampling
-    5. Decode tokens → music21 notes → .mid file
-    6. (Optional) Convert .mid → .wav via FluidSynth + soundfont
-"""
-
 import os
 import sys
 import json
